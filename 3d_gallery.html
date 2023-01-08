@@ -9,8 +9,9 @@
     <!-- Create AR scene -->
     <a-scene>
       <!-- Set up camera -->
-      <a-entity camera></a-entity>
-
+      <a-entity id="rig" position="25 10 0">
+        <a-entity camera look-controls position="0 1.6 0"></a-entity>
+      </a-entity>
       <!-- Load 3D art assets -->
       <a-asset-item id="art1" src="./img/color_full/image2.gltf"></a-asset-item>
 
