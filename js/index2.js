@@ -1,12 +1,9 @@
 AFRAME.registerComponent("look-at", {
   schema: { type: "selector" },
 
-  init: function () {
-    var cameraEl = document.getElementById("camera");
-    cameraEl.setAttribute("look-controls", { enabled: false });
-    this.el.object3D.lookAt(this.data.object3D.position);
-    cameraEl.setAttribute("look-controls", { enabled: true });
-  },
+  init: function () {},
 
-  tick: function () {},
+  tick: function () {
+    this.el.object3D.rotation.set("0, 5, 0");
+  },
 });
