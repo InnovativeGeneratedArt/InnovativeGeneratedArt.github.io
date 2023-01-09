@@ -2,24 +2,14 @@
 <html>
   <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
   <body style="margin: 0px; overflow: hidden">
-    <a-scene
-      vr-mode-ui="enabled: false;"
-      renderer="logarithmicDepthBuffer: true;"
-    >
+    <a-scene vr-mode-ui="enabled: false;">
       <!-- Display art gallery -->
       <a-entity
         id="model"
         position="0 0 -15"
         gltf-model="./img/color_full/image2.gltf"
       ></a-entity>
-      <a-entity
-        look-at="#model"
-        camera
-        position
-        rotation
-        look-controls
-        wasd-controls
-      ></a-entity>
+      <a-entity camera position rotation look-controls wasd-controls></a-entity>
     </a-scene>
   </body>
   <script src="./js/index2.js"></script>
