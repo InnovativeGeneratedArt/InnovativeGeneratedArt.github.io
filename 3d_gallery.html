@@ -11,22 +11,20 @@
     >
       <!-- Display art gallery -->
       <a-entity
-        look-at="#camera"
         id="model"
         scale="1 1 1"
-        position="0 0 0"
+        position="-15 0 0"
         gltf-model="./img/color_full/image2.gltf"
       ></a-entity>
-      <a-entity position="0 0 -15">
-        <a-entity
-          id="camera"
-          camera
-          position
-          rotation
-          look-controls
-          wasd-controls
-        ></a-entity>
-      </a-entity>
+      <a-entity
+        look-at="#model"
+        id="camera"
+        camera
+        position
+        rotation
+        look-controls
+        wasd-controls
+      ></a-entity>
     </a-scene>
   </body>
   <script src="./js/index2.js"></script>
