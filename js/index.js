@@ -82,3 +82,6 @@ const animate = function () {
 };
 
 animate();
+
+document.querySelector("a-scene").camera.el.object3D.rotation.x = 0.014;
+document.querySelector("a-scene").camera.el.object3D.rotation.y = 1.642;
