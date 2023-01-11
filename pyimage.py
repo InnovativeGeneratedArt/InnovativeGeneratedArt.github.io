@@ -5,7 +5,7 @@ path = "./img/Julia1/"
 dirs = sorted(os.listdir(path))
 
 writeFile= open("./1-images.html","w+")
-startImg = """<img class=\"img-large\" src=\"images/"""
+startImg = """<img class=\"img-large\" src=\"./img/"""
 endImg = """\">"""
 startH1 = "<h1>"
 endH1 = "</h1>"
