@@ -22,7 +22,7 @@ window.addEventListener("scroll", function () {
   }
 });
 
-// Set up the three.js scene and camera
+/*// Set up the three.js scene and camera
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
   75,
@@ -31,10 +31,10 @@ const camera = new THREE.PerspectiveCamera(
   1000
 );
 
-// Set up the renderer
+ Set up the renderer
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
-//document.body.appendChild(renderer.domElement);
+document.body.appendChild(renderer.domElement);
 
 // Load the full-size images of the artworks as textures
 const textures = [
@@ -81,4 +81,4 @@ const animate = function () {
   renderer.render(scene, camera);
 };
 
-animate();
+animate();*/
