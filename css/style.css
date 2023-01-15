@@ -269,6 +269,10 @@ footer p {
   margin: 0;
   text-align: center;
 }
+.thumbnail {
+  text-align: center;
+}
 .thumbnail_img {
   width: 75%;
+  padding-top: 40px;
 }
