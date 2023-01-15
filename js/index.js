@@ -34,7 +34,7 @@ const camera = new THREE.PerspectiveCamera(
 // Set up the renderer
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
+//document.body.appendChild(renderer.domElement);
 
 // Load the full-size images of the artworks as textures
 const textures = [
